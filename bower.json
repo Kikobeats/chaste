@@ -1,0 +1,27 @@
+{
+  "name": "castify",
+  "description": "unopinionated type casting",
+  "homepage": "https://github.com/Kikobeats/castify",
+  "version": "0.0.0",
+  "main": "./dist/castify.js",
+  "authors": [
+    {
+      "email": "josefrancisco.verdu@gmail.com",
+      "name": "Kiko Beats",
+      "url": "https://github.com/Kikobeats"
+    }
+  ],
+  "repository": "Kikobeats/castify",
+  "bugs": {
+    "url": "https://github.com/Kikobeats/castify/issues"
+  },
+  "keywords": [],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
