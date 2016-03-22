@@ -1,6 +1,8 @@
 'use strict'
 
 var values = require('lodash.values')
+var includes = require('lodash.includes')
+var newConstructors = ['Buffer', 'Date']
 
 function applyNewConstructor (ctx, args) {
   args = [null].concat(args)
@@ -19,14 +21,14 @@ function chasteFn (ctx) {
   return chaste
 }
 
-function chasteDate () {
+function chasteFnNew () {
   return applyNewConstructor(Date, values(arguments))
 }
 
 function Chaste (ctx) {
   if (!(this instanceof Chaste)) return new Chaste(ctx)
-  if (ctx.name !== 'Date') return chasteFn(ctx)
-  return chasteDate
+  if (includes(newConstructors, ctx.name)) return chasteFnNew
+  return chasteFn(ctx)
 }
 
 module.exports = Chaste
