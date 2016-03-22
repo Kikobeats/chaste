@@ -21,13 +21,17 @@ function chasteFn (ctx) {
   return chaste
 }
 
-function chasteFnNew () {
-  return applyNewConstructor(Date, values(arguments))
+function chasteFnNew (ctx) {
+  function chaste () {
+    return applyNewConstructor(ctx, values(arguments))
+  }
+
+  return chaste
 }
 
 function Chaste (ctx) {
   if (!(this instanceof Chaste)) return new Chaste(ctx)
-  if (includes(newConstructors, ctx.name)) return chasteFnNew
+  if (includes(newConstructors, ctx.name)) return chasteFnNew(ctx)
   return chasteFn(ctx)
 }
 
