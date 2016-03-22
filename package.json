@@ -13,7 +13,15 @@
   "bugs": {
     "url": "https://github.com/Kikobeats/chaste/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "type",
+    "casting",
+    "primitives",
+    "fn",
+    "conversion",
+    "data",
+    "cohercion"
+  ],
   "dependencies": {
     "lodash.includes": "~4.1.1",
     "lodash.values": "~4.1.0"
