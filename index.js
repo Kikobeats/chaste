@@ -2,7 +2,7 @@
 
 var values = require('lodash.values')
 var includes = require('lodash.includes')
-var newConstructors = ['Buffer', 'Date']
+var newConstructors = ['Buffer', 'Date', 'Error']
 
 function applyNewConstructor (ctx, args) {
   args = [null].concat(args)
