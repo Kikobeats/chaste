@@ -1,11 +1,5 @@
 # chaste
 
-<p align="center">
-  <br>
-  <img src="https://i.imgur.com/Mh13XWB.gif" alt="chaste">
-  <br>
-</p>
-
 ![Last version](https://img.shields.io/github/tag/Kikobeats/chaste.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/chaste/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/chaste)
 [![Dependency status](http://img.shields.io/david/Kikobeats/chaste.svg?style=flat-square)](https://david-dm.org/Kikobeats/chaste)
@@ -14,6 +8,34 @@
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/Kikobeats)
 
 > Utility for type casting & data conversion.
+
+**Chaste** is a tiny library to handle type casting.
+
+Basically you stablish the output type to convert your data, for example:
+
+```js
+var Chaste = require('chaste')
+var chaste = Chaste(String)
+```
+
+Then whatever value that you provide as input returns a `String` type.
+
+```js
+chaste(12)
+// => '12'
+```
+
+By default, it's support native types (Like, `Array`, `Object`, `Date`, `Buffer`).
+
+Also you can provide a Function type like, for example:
+
+```js
+var chaste = Chaste(pad)
+chaste('abc', 8, '_-').should.be.equal('_-abc_-_')
+// => '_-abc_-_'
+```
+
+As you can see, rest param are supported!
 
 ## Install
 
@@ -32,34 +54,40 @@ and later link in your HTML:
 ```html
 <script src="bower_components/chaste/dist/chaste.js"></script>
 ```
+
 ## Usage
 
 ```js
-const chaste = require('chaste')
+var Chaste = require('chaste')
+var chaste = Chaste(String)
 
-chaste('do something')
-//=> return something
+chaste(12)
+// => '12'
 ```
 
 ## API
 
-### chaste(input, [options])
+### Chaste(type)
 
-#### input
+#### type
 
-*Required*
-Type: `string`
+*Required*<br>
+Type: `function`
 
-Lorem ipsum.
+Factory function to create output type.
 
-#### options
+Supported native types:
 
-##### foo
+- `Array`
+- `Object`
+- `Error`
+- `Buffer`
+- `String`
+- `Number`
+- `Boolean`
+- `Function`
 
-Type: `boolean`
-Default: `false`
-
-Lorem ipsum.
+Notes that you can provide your own factory function as well, but it needs to create instances without using `new` keyword.
 
 ## License
 

@@ -33,6 +33,8 @@ function chasteFn (ctx) {
 }
 
 function chasteFnNew (ctx) {
+  if (ctx == null) return new Error('Chaste need a type')
+
   function chaste () {
     return applyNewConstructor(ctx, values(arguments))
   }
