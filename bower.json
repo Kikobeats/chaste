@@ -2,7 +2,7 @@
   "name": "castify",
   "description": "unopinionated type casting",
   "homepage": "https://github.com/Kikobeats/castify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./dist/castify.js",
   "authors": [
     {
@@ -11,7 +11,10 @@
       "url": "https://github.com/Kikobeats"
     }
   ],
-  "repository": "Kikobeats/castify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/castify.git"
+  },
   "bugs": {
     "url": "https://github.com/Kikobeats/castify/issues"
   },
