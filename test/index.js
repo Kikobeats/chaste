@@ -34,6 +34,16 @@ describe('Chaste', function () {
         })
       })
 
+      it('array', function () {
+        Chaste(Array)({foo: 'bar'}).should.be.eql([{foo: 'bar'}])
+        Chaste([])({foo: 'bar'}).should.be.eql([{foo: 'bar'}])
+      })
+
+      it('object', function () {
+        Chaste(Object)({foo: 'bar'}).should.be.eql({foo: 'bar'})
+        Chaste({})({foo: 'bar'}).should.be.eql({foo: 'bar'})
+      })
+
       describe('boolean', function () {
         function castBoolean (type, values) {
           values.forEach(function (val) {
