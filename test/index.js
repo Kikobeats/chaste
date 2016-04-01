@@ -67,4 +67,10 @@ describe('Chaste', function () {
       chaste('abc', 8, '_-').should.be.equal('_-abc_-_')
     })
   })
+
+  describe('perf', function () {
+    it('avoid recast flat types', function () {
+      Chaste(String)('1').should.be.equal('1')
+    })
+  })
 })
