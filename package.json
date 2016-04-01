@@ -26,7 +26,6 @@
     "type"
   ],
   "dependencies": {
-    "fn-type": "~1.3.0",
     "lodash.includes": "~4.1.1",
     "lodash.values": "~4.1.0"
   },
