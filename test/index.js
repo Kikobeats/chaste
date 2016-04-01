@@ -35,13 +35,21 @@ describe('Chaste', function () {
       })
 
       it('array', function () {
-        Chaste(Array)({foo: 'bar'}).should.be.eql([{foo: 'bar'}])
-        Chaste([])({foo: 'bar'}).should.be.eql([{foo: 'bar'}])
+        [Array, []].forEach(function (ctx) {
+          Chaste(ctx)({foo: 'bar'}).should.be.eql([{foo: 'bar'}])
+        })
       })
 
       it('object', function () {
-        Chaste(Object)({foo: 'bar'}).should.be.eql({foo: 'bar'})
-        Chaste({})({foo: 'bar'}).should.be.eql({foo: 'bar'})
+        [Object, {}].forEach(function (ctx) {
+          Chaste(ctx)({foo: 'bar'}).should.be.eql({foo: 'bar'})
+        })
+      })
+
+      it('regexp', function () {
+        [/hola/, 'hola'].forEach(function (val) {
+          Chaste(RegExp)(val).should.be.eql(/hola/)
+        })
       })
 
       describe('boolean', function () {

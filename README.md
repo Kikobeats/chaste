@@ -84,6 +84,7 @@ Supported native types:
 - `Buffer`
 - `String`
 - `Number`
+- `RegExp`
 - `Boolean`
 - `Function`
 
