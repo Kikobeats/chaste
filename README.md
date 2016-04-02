@@ -11,23 +11,23 @@
 
 **Chaste** is a tiny library to handle type casting.
 
-Basically you stablish the output type to convert your data, for example:
+Basically you stablish the output type to convert your input data, for example:
 
 ```js
 var Chaste = require('chaste')
 var chaste = Chaste(String)
 ```
 
-Then whatever value that you provide as input returns a `String` type.
+Now, when you provide a input value it always return the `String` casting version:
 
 ```js
 chaste(12)
 // => '12'
 ```
 
-By default, it's support native types (Like, `Array`, `Object`, `Date`, `Buffer`).
+By default, it's support native types (like `Array`, `Object`, `Date`, `Buffer`).
 
-Also you can provide a Function type like, for example:
+Also you can provide a *function-type-like*, for example:
 
 ```js
 var chaste = Chaste(pad)
@@ -36,6 +36,8 @@ chaste('abc', 8, '_-').should.be.equal('_-abc_-_')
 ```
 
 As you can see, rest param are supported!
+
+You can use it as little middleware to be sure about the value of something.
 
 ## Install
 
