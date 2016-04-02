@@ -1,3 +1,16 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2016-04-02)
+
+* Add flat type factory ([05e8311](https://github.com/kikobeats/chaste/commit/05e8311))
+* Add regex support ([6b9f38b](https://github.com/kikobeats/chaste/commit/6b9f38b))
+* Add test ([cff8ad3](https://github.com/kikobeats/chaste/commit/cff8ad3))
+* Fix error exception ([d7fb0f2](https://github.com/kikobeats/chaste/commit/d7fb0f2))
+* Refactor scaffold ([b072f9d](https://github.com/kikobeats/chaste/commit/b072f9d))
+* Remove unnecessary dependency ([cf0bf0a](https://github.com/kikobeats/chaste/commit/cf0bf0a))
+* Update docs ([be79d37](https://github.com/kikobeats/chaste/commit/be79d37))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2016-03-31)
 
