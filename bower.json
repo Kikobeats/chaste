@@ -18,7 +18,15 @@
   "bugs": {
     "url": "https://github.com/Kikobeats/castify/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "casting",
+    "cohercion",
+    "conversion",
+    "data",
+    "fn",
+    "primitives",
+    "type"
+  ],
   "ignore": [
     "**/.*",
     "bower_components",
