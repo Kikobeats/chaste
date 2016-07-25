@@ -26,7 +26,7 @@
     "type"
   ],
   "dependencies": {
-    "lodash.includes": "~4.1.1",
+    "lodash.includes": "~4.2.0",
     "lodash.values": "~4.2.0"
   },
   "devDependencies": {
