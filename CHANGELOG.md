@@ -1,3 +1,13 @@
+<a name="1.2.0"></a>
+# 1.2.0 (2016-09-16)
+
+* Better string/number casting ([8c18e45](https://github.com/kikobeats/chaste/commit/8c18e45))
+* Little refactor ([c8b7f36](https://github.com/kikobeats/chaste/commit/c8b7f36))
+* RegExp don't need new ([cf6ee1a](https://github.com/kikobeats/chaste/commit/cf6ee1a))
+* Update docs ([918ed57](https://github.com/kikobeats/chaste/commit/918ed57))
+
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2016-09-16)
 
