@@ -27,6 +27,8 @@
   ],
   "dependencies": {
     "lodash.includes": "~4.3.0",
+    "lodash.tonumber": "~4.0.3",
+    "lodash.tostring": "~4.1.4",
     "lodash.values": "~4.3.0"
   },
   "devDependencies": {
