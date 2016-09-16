@@ -80,8 +80,8 @@ Factory function to create output type.
 
 Supported native types:
 
-- `Array`
-- `Object`
+- `Array` (Also `[]`)
+- `Object` (Also `{}`)
 - `Error`
 - `Buffer`
 - `String`
