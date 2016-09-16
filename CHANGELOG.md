@@ -1,3 +1,16 @@
+<a name="1.1.1"></a>
+## 1.1.1 (2016-09-16)
+
+* Add bower keywords ([7bd825f](https://github.com/kikobeats/chaste/commit/7bd825f))
+* extract isArray into var ([ed15036](https://github.com/kikobeats/chaste/commit/ed15036))
+* Improve literal declaration detection ([0b8015a](https://github.com/kikobeats/chaste/commit/0b8015a))
+* chore(package): update lodash.includes to version 4.2.0 ([406c392](https://github.com/kikobeats/chaste/commit/406c392))
+* chore(package): update lodash.includes to version 4.3.0 ([851518d](https://github.com/kikobeats/chaste/commit/851518d))
+* chore(package): update lodash.values to version 4.2.0 ([a96e544](https://github.com/kikobeats/chaste/commit/a96e544))
+* chore(package): update lodash.values to version 4.3.0 ([b8052e3](https://github.com/kikobeats/chaste/commit/b8052e3))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2016-04-02)
 
