@@ -1,3 +1,10 @@
+<a name="1.3.0"></a>
+# 1.3.0 (2016-12-13)
+
+* Refactor ([952ff6e](https://github.com/kikobeats/chaste/commit/952ff6e))
+
+
+
 <a name="1.2.1"></a>
 ## 1.2.1 (2016-12-13)
 
