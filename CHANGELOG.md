@@ -1,3 +1,10 @@
+<a name="1.2.1"></a>
+## 1.2.1 (2016-12-13)
+
+* Remove console.log ([8d0e4d8](https://github.com/kikobeats/chaste/commit/8d0e4d8))
+
+
+
 <a name="1.2.0"></a>
 # 1.2.0 (2016-09-16)
 
