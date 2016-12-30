@@ -39,6 +39,7 @@
     "mocha": "latest",
     "should": "latest",
     "standard": "latest",
+    "standard-markdown": "latest"
   },
   "engines": {
     "node": ">= 4"
@@ -49,7 +50,7 @@
   ],
   "scripts": {
     "clean": "rm -rf node_modules",
-    "lint": "standard lib",
+    "lint": "standard lib && standard-markdown README.md",
     "pretest": "npm run lint",
     "test": "mocha"
   },

@@ -78,7 +78,7 @@ Type: `function`
 
 Factory function to create output type.
 
-Supported native types:
+Supported types:
 
 - `Array` (Also `[]`)
 - `Object` (Also `{}`)
