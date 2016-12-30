@@ -1,3 +1,14 @@
+<a name="1.3.1"></a>
+## 1.3.1 (2016-12-30)
+
+* Fix typo ([551a029](https://github.com/kikobeats/chaste/commit/551a029))
+* Improve array constructor ([b335797](https://github.com/kikobeats/chaste/commit/b335797))
+* Remove browser build ([d50a8b0](https://github.com/kikobeats/chaste/commit/d50a8b0))
+* Tweaks ([a8dda07](https://github.com/kikobeats/chaste/commit/a8dda07))
+* Update docs ([5eb6991](https://github.com/kikobeats/chaste/commit/5eb6991))
+
+
+
 <a name="1.3.0"></a>
 # 1.3.0 (2016-12-13)
 
