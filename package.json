@@ -32,25 +32,21 @@
     "lodash.values": "~4.3.0"
   },
   "devDependencies": {
-    "browserify": "latest",
     "coffee-script": "latest",
-    "coffeeify": "latest",
     "date-utils": "latest",
     "git-dirty": "latest",
-    "gulp": "latest",
-    "gulp-header": "latest",
-    "gulp-uglify": "latest",
-    "gulp-util": "latest",
     "lodash.pad": "latest",
     "mocha": "latest",
     "should": "latest",
     "standard": "latest",
-    "vinyl-buffer": "latest",
-    "vinyl-source-stream": "latest"
   },
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 4"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "lint": "standard lib",
