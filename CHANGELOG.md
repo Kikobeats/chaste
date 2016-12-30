@@ -1,3 +1,10 @@
+<a name="1.3.2"></a>
+## 1.3.2 (2016-12-30)
+
+* Handle nested arrays ([bdacf54](https://github.com/kikobeats/chaste/commit/bdacf54))
+
+
+
 <a name="1.3.1"></a>
 ## 1.3.1 (2016-12-30)
 
