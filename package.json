@@ -26,6 +26,7 @@
     "type"
   ],
   "dependencies": {
+    "lodash.flatten": "~4.4.0",
     "lodash.includes": "~4.3.0",
     "lodash.tonumber": "~4.0.3",
     "lodash.tostring": "~4.1.4",
