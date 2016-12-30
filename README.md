@@ -9,7 +9,7 @@
 
 > Utility for type casting & data conversion.
 
-**Chaste** is a tiny library to handle type casting.
+**Chaste** is a tiny library for handle type casting.
 
 Basically you stablish the output type to convert your input data, for example:
 
@@ -25,7 +25,7 @@ chaste(12)
 // => '12'
 ```
 
-By default, it's support native types (like `Array`, `Object`, `Date`, `Buffer`).
+By default, it's support native types (like `Array`, `Object`, `Date` or `Error`).
 
 Also you can provide a *function-type-like*, for example:
 
