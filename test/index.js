@@ -35,8 +35,14 @@ describe('Chaste', function () {
       })
 
       it('array', function () {
-        [Array, []].forEach(function (ctx) {
-          Chaste(ctx)({foo: 'bar'}).should.be.eql([{foo: 'bar'}])
+        [
+          {foo: 'bar'},
+          '23',
+          23
+        ].forEach(function (fixture) {
+          [Array, []].forEach(function (ctx) {
+            Chaste(ctx)(fixture).should.be.eql([fixture])
+          })
         })
       })
 
