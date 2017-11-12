@@ -1,7 +1,5 @@
 # chaste
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/chaste.svg)](https://greenkeeper.io/)
-
 ![Last version](https://img.shields.io/github/tag/Kikobeats/chaste.svg?style=flat-square)
 [![Build Status](http://img.shields.io/travis/Kikobeats/chaste/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/chaste)
 [![Dependency status](http://img.shields.io/david/Kikobeats/chaste.svg?style=flat-square)](https://david-dm.org/Kikobeats/chaste)
