@@ -1,3 +1,16 @@
+<a name="2.0.0"></a>
+# 2.0.0 (2019-05-20)
+
+* ci: update builds ([f9ccf19](https://github.com/kikobeats/chaste/commit/f9ccf19))
+* build: use lodash dependency ([5668c69](https://github.com/kikobeats/chaste/commit/5668c69))
+* Update builds ([74c87a0](https://github.com/kikobeats/chaste/commit/74c87a0))
+* Update README.md ([5859d54](https://github.com/kikobeats/chaste/commit/5859d54))
+* Update README.md ([cfda44f](https://github.com/kikobeats/chaste/commit/cfda44f))
+* docs(readme): add Greenkeeper badge ([7e14e39](https://github.com/kikobeats/chaste/commit/7e14e39))
+* docs(readme): add Greenkeeper badge ([cdabd85](https://github.com/kikobeats/chaste/commit/cdabd85))
+
+
+
 <a name="1.3.2"></a>
 ## 1.3.2 (2016-12-30)
 
