@@ -1,7 +1,6 @@
 'use strict'
 
-var flatten = require('lodash.flatten')
-var values = require('lodash.values')
+const { values, flatten } = require('lodash')
 
 function createArray () {
   return flatten(arguments)
@@ -26,8 +25,8 @@ function createApplyConstructor (ctx) {
 
 function createApplyNewConstructor (ctx) {
   function applyNewConstructor () {
-    var args = [null].concat(values(arguments))
-    var FactoryFn = ctx.bind.apply(ctx, args)
+    const args = [null].concat(values(arguments))
+    const FactoryFn = ctx.bind.apply(ctx, args)
     return new FactoryFn()
   }
 
