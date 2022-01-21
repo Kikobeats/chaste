@@ -1,11 +1,8 @@
 # chaste
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/chaste.svg?style=flat-square)
-[![Build Status](http://img.shields.io/travis/Kikobeats/chaste/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/chaste)
-[![Dependency status](http://img.shields.io/david/Kikobeats/chaste.svg?style=flat-square)](https://david-dm.org/Kikobeats/chaste)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/chaste.svg?style=flat-square)](https://david-dm.org/Kikobeats/chaste#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/chaste.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/chaste)
 [![NPM Status](http://img.shields.io/npm/dm/chaste.svg?style=flat-square)](https://www.npmjs.org/package/chaste)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/Kikobeats)
 
 > Utility for type casting & data conversion.
 
@@ -14,8 +11,8 @@
 Basically you stablish the output type to convert your input data, for example:
 
 ```js
-var Chaste = require('chaste')
-var chaste = Chaste(String)
+const Chaste = require('chaste')
+const chaste = Chaste(String)
 ```
 
 Now, when you provide a input value it always return the `String` casting version:
@@ -30,7 +27,7 @@ By default, it's support native types (like `Array`, `Object`, `Date` or `Error`
 Also you can provide a *function-type-like*, for example:
 
 ```js
-var chaste = Chaste(pad)
+const chaste = Chaste(pad)
 chaste('abc', 8, '_-').should.be.equal('_-abc_-_')
 // => '_-abc_-_'
 ```
@@ -60,8 +57,8 @@ and later link in your HTML:
 ## Usage
 
 ```js
-var Chaste = require('chaste')
-var chaste = Chaste(String)
+const Chaste = require('chaste')
+const chaste = Chaste(String)
 
 chaste(12)
 // => '12'
