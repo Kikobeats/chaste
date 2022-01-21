@@ -13,6 +13,7 @@ function chasteFactoryType (ctx) {
   const type = ctx.name.toLowerCase()
 
   function chaste (input) {
+    // eslint-disable-next-line
     return typeof input !== type ? ctx(input) : input
   }
 
