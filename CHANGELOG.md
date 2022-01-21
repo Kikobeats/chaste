@@ -1,3 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 2.0.1 (2022-01-21)
+
 <a name="2.0.0"></a>
 # 2.0.0 (2019-05-20)
 
@@ -90,6 +96,3 @@
 * makeup ([8ebd7ec](https://github.com/kikobeats/chaste/commit/8ebd7ec))
 * Mark latest for all devDependencies ([75277ea](https://github.com/kikobeats/chaste/commit/75277ea))
 * Support object/array literal ([f7ec7b7](https://github.com/kikobeats/chaste/commit/f7ec7b7))
-
-
-
