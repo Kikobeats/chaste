@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/kikobeats/chaste/compare/v2.0.6...v3.0.0) (2022-06-12)
+
+
+### Features
+
+* remove lodash ([22e6226](https://github.com/kikobeats/chaste/commit/22e6226f0e70657fcd78144e83f3f440ffd362b6))
+
 ### 2.0.6 (2022-05-17)
 
 ### 2.0.5 (2022-04-12)
