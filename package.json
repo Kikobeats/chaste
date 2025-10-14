@@ -2,7 +2,7 @@
   "name": "chaste",
   "description": "Utility for type casting & data conversion.",
   "homepage": "https://github.com/Kikobeats/chaste",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
